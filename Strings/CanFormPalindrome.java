@@ -1,5 +1,6 @@
 public class CanFormPalindrome {
 
+    // O(n), O(1)
     static boolean canFormPalindrome(String s){
         int[] count = new int[126];
         for(char c : s.toCharArray())
