@@ -20,9 +20,9 @@ public class NoOfDistinctChar {
         int distinctCount = 0;
         for(char c : s.toCharArray())
             freq.put(c, freq.getOrDefault(c, 0) + 1);
-        for(Character key : freq.keySet())
-            distinctCount++;
-        return distinctCount;
+        // for(Character key : freq.keySet())
+        //     distinctCount++;
+        return freq.size();
     }
 
     public static void main(String[] args) {

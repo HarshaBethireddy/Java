@@ -1,4 +1,4 @@
-package Primes;
+package Maths.Primes;
 
 import java.util.ArrayList;
 import java.util.List;

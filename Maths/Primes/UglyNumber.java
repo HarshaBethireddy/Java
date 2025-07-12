@@ -1,4 +1,4 @@
-package Primes;
+package Maths.Primes;
 
 //If only a num has its primes factors only as 2, 3, 5 only
 public class UglyNumber {

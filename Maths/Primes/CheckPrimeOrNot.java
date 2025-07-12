@@ -1,4 +1,4 @@
-package Primes;
+package Maths.Primes;
 
 public class CheckPrimeOrNot {
     // O(sqrt(n)), O(1)
